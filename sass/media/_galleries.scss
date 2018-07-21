@@ -8,6 +8,14 @@
 	vertical-align: top;
 	width: 100%;
 
+	position: relative;
+	&:hover {
+		z-index: 9999;
+		& > .gallery-caption {
+			display: block;
+		}
+	}
+
 	// Loops to enumerate the classes for gallery columns.
 	@for $i from 2 through 9 {
 		.gallery-columns-#{$i} & {
@@ -17,5 +25,8 @@
 }
 
 .gallery-caption {
-	display: block;
+	display: none;
+	padding: 0.8075em;
+	position: absolute;
+	width: 100%;
 }

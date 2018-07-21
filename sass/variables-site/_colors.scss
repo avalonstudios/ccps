@@ -1,3 +1,13 @@
+$green1: rgb( 37, 115, 115 );
+$green2: rgb( 0, 137, 145 );
+$green3: rgb( 99, 168, 172 );
+$green4: rgb( 171, 206, 207 );
+
+$green5: lighten( $green4, 15 );
+
+$orange: #c0793e;
+$orange2: #e3a068;
+
 $color__background-body: #fff;
 $color__background-screen: #f1f1f1;
 $color__background-hr: #ccc;
@@ -8,9 +18,11 @@ $color__background-ins: #fff9c0;
 $color__text-screen: #21759b;
 $color__text-input: #666;
 $color__text-input-focus: #111;
-$color__link: royalblue;
+
+$color__link: $orange;
 $color__link-visited: purple;
 $color__link-hover: midnightblue;
+
 $color__text-main: #404040;
 
 $color__border-button: #ccc #ccc #bbb;

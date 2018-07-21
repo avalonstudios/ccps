@@ -1,0 +1,22 @@
+.site-footer {
+	text-align: center;
+	background: $green4;
+	color: white;
+	padding: 1em 0;
+	@include colored-links( white, $green1, white );
+	.designer,
+	.copyright {
+		@include bp( 1, 424 ) {
+			display: block;
+			@include font-size( .8 );
+		}
+		@include bp( 425 ) {
+			display: inline-block;
+		}
+	}
+	.sep {
+		@include bp( 1, 424 ) {
+			display: none;
+		}
+	}
+}

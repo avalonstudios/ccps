@@ -1,3 +1,14 @@
 h1, h2, h3, h4, h5, h6 {
 	clear: both;
+	font-family: $serif;
+}
+
+$j: 3;
+@for $i from 1 through 6 {
+	h#{$i} {
+		$j: $j - .25;
+		@include font-size( $j );
+		margin: 0;
+		margin-bottom: 10px;
+	}
 }

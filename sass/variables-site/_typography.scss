@@ -1,4 +1,7 @@
-$font__main: sans-serif;
+$sans: 'Lato', sans-serif;
+$serif: "Palatino Linotype", "Book Antiqua", Palatino, serif;
+
+$font__main: $sans;
 $font__code: Monaco, Consolas, "Andale Mono", "DejaVu Sans Mono", monospace;
 $font__pre: "Courier 10 Pitch", Courier, monospace;
 $font__line-height-body: 1.5;

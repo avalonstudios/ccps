@@ -20,3 +20,88 @@
 	clear: both;
 	margin: 0 0 1.5em;
 }
+
+.page,
+.archive,
+.single,
+.blog {
+	.site-content {
+		padding-top: 21px;
+	}
+	.post-thumbnail {
+		img {
+			padding-top: 20px;
+			@include center-block;
+		}
+	}
+	.hentry {
+		margin-bottom: 50px;
+	}
+	.entry-footer {
+		.cat-links,
+		.tags-links,
+		.comments-link,
+		.edit-link {
+			display: block;
+			margin-bottom: 10px;
+			.badge {
+				margin: 0 3px 3px;
+				border: 1px solid $green5;
+				box-shadow: none;
+			}
+		}
+		.posted-in,
+		.tagged-as {
+			margin-right: 1em;
+			font-family: $serif;
+		}
+	}
+}
+
+.archive,
+.blog {
+	.card {
+		&.sticky {
+			display: flex;
+		}
+		.btn {
+			background: $green3;
+			&:hover {
+				background: $green2;
+			}
+			p {
+				margin-bottom: 0;
+			}
+		}
+		&-title {
+			@include colored-links( $green3, $green2, $green3 );
+		}
+	}
+	.post-thumbnail {
+		img {
+			@include center-block;
+			padding-top: 0;
+		}
+	}
+	.post-thumb {
+		&.logo {
+			display: block;
+			margin: 30px auto 10px;
+			width: 170px;
+		}
+		&.title {
+			font-family: $serif;
+			font-weight: bold;
+			color: $green1;
+			@include font-size( 2.1 );
+		}
+		&.title,
+		&.description {
+			@include center-block;
+			text-align: center;
+		}
+		&.description {
+			@include font-size( .7 );
+		}
+	}
+}

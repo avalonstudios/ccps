@@ -27,3 +27,28 @@
 @mixin column-width($numberColumns: 3) {
 	width: map-get( $columns, $numberColumns ) - ( ( $columns__margin * ( $numberColumns - 1 ) ) / $numberColumns );
 }
+
+@mixin bp( $p, $q: null, $orient: width ) {
+	@if ( $q != null ) {
+		@media (min-#{$orient}: $p * 1px) and (max-#{$orient}: $q * 1px) { @content; }
+	} @else {
+		@media (min-#{$orient}: $p * 1px) { @content; }
+	}
+}
+
+@function transit( $el, $time:0.25, $ease:ease-in-out, $delay:0s ) {
+	@return #{$el} #{$time}s $ease $delay;
+}
+
+@mixin colored-links( $link, $hover: $link, $visited: $hover ) {
+	a {
+		color: $link;
+		transition: transit( color ), transit( border-bottom, .5 );
+		&:visited {
+			color: $visited;
+		}
+		&:hover {
+			color: $hover;
+		}
+	}
+}

@@ -1,0 +1,76 @@
+.navbar {
+	background: white;
+	transition: transit( background );
+	&.top-nav-collapse {
+		//background: $green4;
+	}
+}
+
+@mixin logoSizes( $height, $width: $height * 2.72 ) {
+	background-size: #{$width} #{$height};
+	width: #{$width};
+	height: #{$height};
+}
+
+.site {
+	&-title {
+		font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
+		font-weight: bold;
+		margin: 0;
+		@include colored-links( $green1 );
+		a {
+			text-decoration: none;
+			letter-spacing: 1px;
+			@include bp( 1 ) {
+				@include font-size( 1 );
+			}
+			@include bp( 992 ) {
+				@include font-size( 3 );
+			}
+		}
+		&:before {
+			background-image: url( 'images/CCPS-Malta-Leaves.png' );
+			display: inline-block;
+			content: '';
+			@include bp( 1 ) {
+				$height: 12px;
+				@include logoSizes( $height );
+			}
+			@include bp( 992 ) {
+				$height: 35px;
+				@include logoSizes( $height );
+			}
+		}
+	}
+	&-description {
+		margin: 0;
+		color: $green1;
+		@include bp( 1, 991 ) {
+			display: none;
+			@include font-size( .53 );
+		}
+		@include bp( 992 ) {
+			font-weight: 500;
+			@include font-size( 1.45 );
+		}
+	}
+}
+
+#front-page-carousel {
+	@include bp( 1, 767 ) {
+		display: none;
+	}
+}
+#front-page-carouse {
+	.carousel {
+		&-item {
+			position: absolute;
+			display: block;
+			opacity: 0;
+			transition: transit( opacity );
+			&.active {
+				opacity: 1 !important
+			}
+		}
+	}
+}

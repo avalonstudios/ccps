@@ -7,7 +7,15 @@ dfn, cite, em, i {
 }
 
 blockquote {
-	margin: 0 1.5em;
+	margin: 0 1.5em 1.5em;
+	background: $green5;
+	padding: 20px;
+	p {
+		&:first-child,
+		&:last-child {
+			margin-bottom: 0;
+		}
+	}
 }
 
 address {
@@ -23,6 +31,7 @@ pre {
 	max-width: 100%;
 	overflow: auto;
 	padding: 1.6em;
+	white-space: pre-wrap;
 }
 
 code, kbd, tt, var {

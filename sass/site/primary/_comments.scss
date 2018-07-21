@@ -4,3 +4,38 @@
 .bypostauthor {
 	display: block;
 }
+
+.comment-list {
+	.comment {
+		width: 100%;
+		clear: both;
+		display: block;
+		float: left;
+		margin: 20px 0;
+		&-body {
+			margin-bottom: 20px;
+		}
+		&-metadata {
+			.edit-link {
+				float: right;
+				line-height: 1;
+				background: red;
+				padding: 5px;
+				.comment-edit-link {
+					color: white;
+				}
+			}
+		}
+		.reply {
+			.comment-reply-link {
+				background-color: $green3;
+				padding: 1em;
+				transition: transit( background-color );
+				&:hover {
+					background-color: $green2;
+				}
+			}
+			@include colored-links( white );
+		}
+	}
+}

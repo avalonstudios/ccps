@@ -2,21 +2,38 @@ button,
 input[type="button"],
 input[type="reset"],
 input[type="submit"] {
-	border: 1px solid;
-	border-color: $color__border-button;
-	border-radius: 3px;
-	background: $color__background-button;
-	color: rgba(0, 0, 0, .8);
-	@include font-size(0.75);
+	//border: 1px solid;
+	//border-color: $color__border-button;
+	border-radius: 0;
+	cursor: pointer;
+	border: 0;
+	background: $green3;
+	color: white;
+	@include font-size( 1 );
 	line-height: 1;
-	padding: .6em 1em .4em;
+	padding: .9em 1.25em;
+	background: $green3;
+	transition: transit( background-color );
 
 	&:hover {
-		border-color: $color__border-button-hover;
+		background: $green2;
 	}
 
 	&:active,
 	&:focus {
-		border-color: $color__border-button-focus;
+	}
+}
+
+inpu {
+	&[type="submit"] {
+		border-radius: 0;
+		border: 0;
+		background: $green3;
+		color: white;
+		cursor: pointer;
+		transition: transit( background-color );
+		&:hover {
+			background: $green2;
+		}
 	}
 }
