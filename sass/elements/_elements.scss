@@ -41,3 +41,11 @@ figure {
 
 @import "tables";
 
+.edit-link {
+	margin-top: 1em;
+	@include colored-links( $green5, white );
+	.post-edit-link {
+		padding: .5em 1em;
+		background: $orange;
+	}
+}

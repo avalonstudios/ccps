@@ -105,3 +105,26 @@
 		}
 	}
 }
+
+.contact-form {
+	.green {
+		&.accent-3 {
+			background-color: $green3 !important;
+			&:hover {
+				background-color: $green2 !important;
+			}
+		}
+	}
+	.card-body {
+		h3 {
+			margin: 0;
+		}
+	}
+}
+
+.linkedin-team-member-link {
+	$height: 30px;
+	@include logoSizes( $height, $height );
+	@include ccpsLogo( 'linkedin' );
+	display: inline-block;
+}

@@ -6,12 +6,6 @@
 	}
 }
 
-@mixin logoSizes( $height, $width: $height * 2.72 ) {
-	background-size: #{$width} #{$height};
-	width: #{$width};
-	height: #{$height};
-}
-
 .site {
 	&-title {
 		font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
@@ -29,7 +23,7 @@
 			}
 		}
 		&:before {
-			background-image: url( 'images/CCPS-Malta-Leaves.png' );
+			@include ccpsLogo();
 			display: inline-block;
 			content: '';
 			@include bp( 1 ) {
@@ -62,14 +56,15 @@
 	}
 }
 #front-page-carouse {
-	.carousel {
-		&-item {
-			position: absolute;
-			display: block;
+	.carousel-item {
+		.view {
 			opacity: 0;
 			transition: transit( opacity );
-			&.active {
-				opacity: 1 !important
+		}
+		&.active {
+			.view {
+				opacity: 1 !important;
+				transition: transit( opacity );
 			}
 		}
 	}

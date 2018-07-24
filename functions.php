@@ -208,6 +208,7 @@ if ( defined( 'JETPACK__VERSION' ) ) {
 require "inc/phpajaxcalls.php";
 require "inc/pagination.php";
 require "inc/ava-shortcodes.php";
+require "inc/cpt.php";
 
 function add_allowed_origins( $origins ) {
 	$origins[] = 'http://localhost:7884';
@@ -215,3 +216,14 @@ function add_allowed_origins( $origins ) {
 	return $origins;
 }
 add_filter( 'allowed_http_origins', 'add_allowed_origins' );
+
+
+if ( function_exists('acf_add_options_page') ) {
+	acf_add_options_page( array (
+		'page_title'	=> 'Theme General Settings',
+		'menu_title'	=> 'Theme Settings',
+		'menu_slug'		=> 'theme-general-settings',
+		'capability'	=> 'edit_posts',
+		'redirect'		=> false
+	));
+}

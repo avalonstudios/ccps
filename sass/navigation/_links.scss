@@ -17,3 +17,21 @@ a {
 		outline: 0;
 	}
 }
+
+.links-section {
+	@include bp( 1 ) {
+		a {
+			.fa {
+				margin-left: 10px;
+			}
+		}
+	}
+	@include bp( 600 ) {
+		column-fill: balance;
+		column-count: 2;
+		column-gap: 90px;
+	}
+	@include bp( 992 ) {
+		//column-count: 3;
+	}
+}

@@ -1,0 +1,851 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"get_templatep",
+				"get_template_part\tWP Function"
+			],
+			[
+				"page",
+				"pagenum_link"
+			],
+			[
+				"get_template_dire",
+				"get_template_directory_uri"
+			],
+			[
+				"di",
+				"divider"
+			],
+			[
+				"fro",
+				"frontPageCarousel"
+			],
+			[
+				"acc",
+				"account_no"
+			],
+			[
+				"swi",
+				"swift_code"
+			],
+			[
+				"na",
+				"navbar"
+			],
+			[
+				"ob_cl",
+				"ob_get_clean"
+			],
+			[
+				"fadeIn",
+				"fadeInRight"
+			],
+			[
+				"images",
+				"imageSrc"
+			],
+			[
+				"got",
+				"GoT_pg"
+			],
+			[
+				"get_post_thu",
+				"get_the_post_thumbnail_url"
+			],
+			[
+				"wp_getsrs",
+				"wp_get_attachment_image_srcset"
+			],
+			[
+				"wp_get_atsr",
+				"wp_get_attachment_image_srcset"
+			],
+			[
+				"get_template_d",
+				"get_template_directory_uri"
+			],
+			[
+				"local",
+				"localLink"
+			],
+			[
+				"plugin_di",
+				"plugin_dir_url"
+			],
+			[
+				"lis",
+				"list\tlist-style-type"
+			],
+			[
+				"sub",
+				"sub-menu"
+			],
+			[
+				"con",
+				"contentHeight"
+			],
+			[
+				"bac",
+				"backgroundImgID"
+			],
+			[
+				"nav",
+				"navbarDistance"
+			],
+			[
+				"esc_htm",
+				"esc_html__"
+			],
+			[
+				"navbar",
+				"navbar-nav"
+			],
+			[
+				"admin",
+				"adminBar"
+			],
+			[
+				"has_post_",
+				"has_post_thumbnail"
+			],
+			[
+				"dykp",
+				"dykpopup"
+			],
+			[
+				"ran",
+				"randomPopup"
+			],
+			[
+				"rad",
+				"randomPopup"
+			],
+			[
+				"carou",
+				"carouselImg"
+			],
+			[
+				"Go",
+				"GoT_pg"
+			],
+			[
+				"btn",
+				"btn-outline-dark"
+			],
+			[
+				"def",
+				"definition"
+			],
+			[
+				"de",
+				"defaultBackgroundImage"
+			],
+			[
+				"get_querie",
+				"get_queried_object_id"
+			],
+			[
+				"showsideb",
+				"SHOW_SIDEBAR"
+			],
+			[
+				"showi",
+				"showSidebar"
+			],
+			[
+				"shod",
+				"showSidebar"
+			],
+			[
+				"scr",
+				"scrollTop"
+			],
+			[
+				"navb",
+				"navbarHeight"
+			],
+			[
+				"ari",
+				"aria-expanded"
+			],
+			[
+				"aria-",
+				"aria-haspopup"
+			],
+			[
+				"fun",
+				"function"
+			],
+			[
+				"ma",
+				"mailto"
+			],
+			[
+				"hea",
+				"headersMinSpotArr"
+			],
+			[
+				"h",
+				"headersMinSpotArr"
+			],
+			[
+				"radio",
+				"radioClick"
+			],
+			[
+				"si",
+				"sideTitles"
+			],
+			[
+				"s",
+				"subTotals"
+			],
+			[
+				"for",
+				"for\tfor (…) {…} (Improved Native For-Loop)"
+			],
+			[
+				"max",
+				"maxNumSpots"
+			],
+			[
+				"aso",
+				"assocJSON"
+			],
+			[
+				"col",
+				"colHeaders"
+			],
+			[
+				"arra",
+				"array"
+			],
+			[
+				"tabler",
+				"tableRow"
+			],
+			[
+				"hed",
+				"headerRows"
+			],
+			[
+				"header",
+				"headerRows"
+			],
+			[
+				"ng",
+				"ngmodel"
+			],
+			[
+				"ngm",
+				"ngmodels"
+			],
+			[
+				"fil",
+				"fillNamesApp"
+			],
+			[
+				"asso",
+				"assocArr"
+			],
+			[
+				"wp_",
+				"wp_enqueue_script"
+			],
+			[
+				"bxs",
+				"bxsh-ra\tbox-shadow: ${1:inset }${2:h} ${3:v} ${4:blur} ${5:spread }rgba(${6:0}, ${7:0}, ${8:0}, .${9:5});"
+			],
+			[
+				"remove",
+				"removeStorefrontActions"
+			],
+			[
+				"owlca",
+				"owlcarousel"
+			],
+			[
+				"ouim",
+				"ouibounceModal"
+			],
+			[
+				"oui",
+				"ouibounceModal"
+			],
+			[
+				"musictr",
+				"musicTracks"
+			],
+			[
+				"trac",
+				"tracksArr"
+			],
+			[
+				"musi",
+				"musicTrack"
+			],
+			[
+				"mus",
+				"musicTrack"
+			],
+			[
+				"resi",
+				"resizeTimer"
+			],
+			[
+				"wp_e",
+				"wp_enqueue_scripts"
+			],
+			[
+				"z",
+				"z-index"
+			],
+			[
+				"wid",
+				"width"
+			]
+		]
+	},
+	"buffers":
+	[
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 98.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"install",
+				"Package Control: Install Package"
+			],
+			[
+				"Package Control: inst",
+				"Package Control: Install Package"
+			],
+			[
+				"Package Control: ",
+				"Package Control: Install Package"
+			],
+			[
+				"Package Control: remo",
+				"Package Control: Remove Package"
+			],
+			[
+				"Package Control:li",
+				"Package Control: List Packages"
+			],
+			[
+				"select co",
+				"UI: Select Color Scheme"
+			],
+			[
+				"install pack",
+				"Package Control: Install Package"
+			],
+			[
+				"material",
+				"Material Theme: Activate theme"
+			]
+		],
+		"width": 464.0
+	},
+	"console":
+	{
+		"height": 130.0,
+		"history":
+		[
+			"import urllib.request,os,hashlib; h = '6f4c264a24d933ce70df5dedcf1dcaee' + 'ebe013ee18cced0ef93d5f746d80ef60'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); by = urllib.request.urlopen( 'http://packagecontrol.io/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); print('Error validating download (got %s instead of %s), please try manual install' % (dh, h)) if dh != h else open(os.path.join( ipp, pf), 'wb' ).write(by)"
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"expanded_folders":
+	[
+	],
+	"file_history":
+	[
+		"/G/Xampp/htdocs/wpdev/clients/CCPS/wp-content/themes/ccps/inc/bootstrap-wp-navwalker.php",
+		"/G/Xampp/htdocs/wpdev/clients/CCPS/wp-content/themes/ccps/header.php",
+		"/G/Xampp/htdocs/wpdev/clients/CCPS/wp-content/themes/ccps/sass/navigation/_menus.scss",
+		"/G/Xampp/htdocs/wpdev/clients/CCPS/wp-content/themes/ccps/sass/forms/_fields.scss",
+		"/G/Xampp/htdocs/wpdev/clients/CCPS/wp-content/themes/ccps/sass/typography/_copy.scss",
+		"/G/Xampp/htdocs/wpdev/clients/CCPS/wp-content/themes/ccps/sass/site/primary/_posts-and-pages.scss",
+		"/G/Xampp/htdocs/wpdev/clients/CCPS/wp-content/themes/ccps/functions.php",
+		"/G/Xampp/htdocs/wpdev/clients/CCPS/wp-content/themes/ccps/template-parts/content-cards.php",
+		"/G/Xampp/htdocs/wpdev/clients/CCPS/wp-content/themes/ccps/inc/template-tags.php",
+		"/G/Xampp/htdocs/wpdev/clients/CCPS/wp-content/themes/ccps/sass/site/secondary/_widgets.scss",
+		"/G/Xampp/htdocs/wpdev/clients/CCPS/wp-content/themes/ccps/archive.php",
+		"/G/Xampp/htdocs/wpdev/clients/CCPS/wp-content/themes/ccps/home.php",
+		"/G/Xampp/htdocs/wpdev/personal/talentscout/wp-content/themes/talentscout/inc/template-tags.php",
+		"/G/Xampp/htdocs/wpdev/clients/CCPS/wp-content/themes/ccps/comments.php",
+		"/G/Xampp/htdocs/wpdev/clients/CCPS/wp-content/themes/ccps/sass/site/primary/_comments.scss",
+		"/G/Xampp/htdocs/wpdev/clients/CCPS/wp-content/themes/ccps/sass/media/_galleries.scss",
+		"/G/Xampp/htdocs/wpdev/clients/CCPS/wp-content/themes/ccps/sass/forms/_buttons.scss",
+		"/G/Xampp/htdocs/wpdev/clients/CCPS/wp-content/themes/ccps/sass/media/_captions.scss",
+		"/G/Xampp/htdocs/wpdev/clients/CCPS/wp-content/themes/ccps/sass/elements/_lists.scss",
+		"/G/Xampp/htdocs/wpdev/clients/CCPS/wp-content/themes/ccps/sass/typography/_headings.scss",
+		"/G/Xampp/htdocs/wpdev/clients/CCPS/wp-content/themes/ccps/sass/variables-site/_colors.scss",
+		"/G/Xampp/htdocs/wpdev/personal/talentscout/wp-content/themes/talentscout/sass/typography/_headings.scss",
+		"/G/Xampp/htdocs/wpdev/clients/CCPS/wp-content/themes/ccps/sass/elements/_header.scss",
+		"/G/Xampp/htdocs/wpdev/clients/CCPS/wp-content/themes/ccps/sass/variables-site/_typography.scss",
+		"/G/Xampp/htdocs/wpdev/clients/CCPS/wp-content/themes/ccps/inc/pagination.php",
+		"/G/Xampp/htdocs/wpdev/clients/CCPS/wp-content/themes/ccps/js/custom.js",
+		"/G/Xampp/htdocs/wpdev/clients/CCPS/wp-content/themes/ccps/footer.php",
+		"/G/Xampp/htdocs/wpdev/clients/CCPS/wp-content/themes/ccps/sass/layout/_content-sidebar.scss",
+		"/G/Xampp/htdocs/wpdev/clients/CCPS/wp-content/themes/ccps/sass/elements/_footer.scss",
+		"/G/Xampp/htdocs/wpdev/clients/CCPS/wp-content/themes/ccps/sass/navigation/_links.scss",
+		"/G/Xampp/htdocs/wpdev/clients/CCPS/wp-content/themes/ccps/sass/variables-site/_structure.scss",
+		"/G/Xampp/htdocs/wpdev/clients/CCPS/wp-content/themes/ccps/sass/style.scss",
+		"/G/Xampp/htdocs/wpdev/clients/CCPS/wp-content/themes/ccps/inc/phpajaxcalls.php",
+		"/G/Xampp/htdocs/wpdev/clients/CCPS/wp-content/themes/ccps/front-page.php",
+		"/G/Xampp/htdocs/wpdev/clients/CCPS/wp-content/themes/ccps/sass/site/primary/_front-page.scss",
+		"/G/Xampp/htdocs/wpdev/clients/CCPS/wp-content/themes/ccps/sass/site/_site.scss",
+		"/G/Xampp/htdocs/wpdev/clients/maltamapsociety/wp-content/themes/understrap_child/js/custom.js",
+		"/G/Xampp/htdocs/wpdev/personal/talentscout/wp-content/themes/talentscout/js/custom.js",
+		"/G/Xampp/htdocs/wpdev/clients/CCPS/wp-content/themes/ccps/js/ajaxcalls.js",
+		"/G/Xampp/htdocs/wpdev/clients/CCPS/wp-content/themes/ccps/sass/elements/_elements.scss",
+		"/G/Xampp/htdocs/wpdev/clients/CCPS/wp-content/themes/ccps/inc/ava-shortcodes.php",
+		"/G/Xampp/htdocs/wpdev/clients/maltamapsociety/wp-content/themes/understrap_child/functions.php",
+		"/G/Xampp/htdocs/wpdev/personal/talentscout/wp-content/themes/talentscout/functions.php",
+		"/G/Xampp/htdocs/wpdev/clients/CCPS/wp-content/themes/ccps/sass/mdb-bootstrap.scss",
+		"/G/Xampp/htdocs/wpdev/clients/CCPS/wp-content/themes/ccps/sass/mixins/_mixins-master.scss",
+		"/G/Xampp/htdocs/wpdev/personal/avalon3/wp-content/themes/avalon/sass/elements/_elements.scss",
+		"/G/Xampp/htdocs/wpdev/personal/talentscout/wp-content/themes/talentscout/sass/mixins/_mixins-master.scss",
+		"/G/Xampp/htdocs/wpdev/personal/avalon3/wp-content/themes/avalon/sass/mixins/_mixins-master.scss",
+		"/G/Xampp/htdocs/wpdev/clients/gendel/wp-content/themes/gendel/style.css",
+		"/G/Xampp/htdocs/wpdev/personal/talentscout/wp-content/themes/talentscout/front-page.php",
+		"/G/Xampp/htdocs/wpdev/personal/talentscout/wp-content/themes/talentscout/inc/pagination.php",
+		"/G/Xampp/htdocs/wpdev/clients/maltamapsociety/wp-content/themes/understrap_child/sass/_sidebar.scss",
+		"/G/Xampp/htdocs/wpdev/clients/maltamapsociety/wp-content/themes/understrap_child/sass/styles.scss",
+		"/G/Xampp/htdocs/wpdev/clients/maltamapsociety/wp-content/themes/understrap_child/single.php",
+		"/G/Xampp/htdocs/wpdev/clients/maltamapsociety/wp-content/themes/understrap_child/sass/_front-page.scss",
+		"/G/Xampp/htdocs/wpdev/clients/maltamapsociety/wp-content/themes/understrap_child/page-templates/templates-bibliography.php",
+		"/G/Xampp/htdocs/wpdev/clients/maltamapsociety/wp-content/themes/understrap_child/front-page.php",
+		"/G/Xampp/htdocs/wpdev/clients/maltamapsociety/wp-content/themes/understrap_child/sass/_cards.scss",
+		"/G/Xampp/htdocs/wpdev/clients/maltamapsociety/wp-content/themes/understrap_child/inc/phpajaxcalls.php",
+		"/G/Xampp/htdocs/wpdev/clients/maltamapsociety/wp-content/themes/understrap_child/page-templates/template-glossary_terms.php",
+		"/G/Xampp/htdocs/wpdev/clients/maltamapsociety/wp-content/themes/understrap_child/sass/_pages-posts.scss",
+		"/G/Xampp/htdocs/wpdev/clients/maltamapsociety/wp-content/themes/understrap_child/style.css",
+		"/G/Xampp/htdocs/wpdev/clients/maltamapsociety/wp-content/themes/understrap_child/inc/ava-shortcodes.php",
+		"/G/Xampp/htdocs/wpdev/clients/maltamapsociety/wp-content/themes/understrap_child/loop-templates/template-committees.php",
+		"/G/Xampp/htdocs/wpdev/clients/maltamapsociety/wp-content/themes/understrap/inc/enqueue.php",
+		"/G/Xampp/htdocs/wpdev/clients/maltamapsociety/wp-content/themes/understrap_child/inc/template-tags.php",
+		"/G/Xampp/htdocs/wpdev/clients/maltamapsociety/wp-content/themes/understrap_child/js/ajaxcalls.js",
+		"/G/Xampp/htdocs/wpdev/clients/maltamapsociety/wp-content/themes/understrap_child/header.php",
+		"/G/Xampp/htdocs/wpdev/clients/maltamapsociety/wp-content/themes/understrap_child/page-templates/template-renewal-form-success-unpaid.php",
+		"/G/Xampp/htdocs/wpdev/clients/maltamapsociety/wp-content/themes/understrap_child/sass/_badges.scss",
+		"/G/Xampp/htdocs/wpdev/clients/maltamapsociety/wp-content/themes/understrap_child/sass/_fields.scss",
+		"/G/Xampp/htdocs/wpdev/clients/maltamapsociety/wp-content/themes/understrap_child/sass/_header.scss",
+		"/G/Xampp/htdocs/wpdev/personal/avalon/wp-content/themes/avalon/header.php",
+		"/G/Xampp/htdocs/wpdev/clients/maltamapsociety/wp-content/themes/understrap_child/page-templates/template-renewal-form-unpaid.php",
+		"/G/Xampp/htdocs/wpdev/clients/maltamapsociety/wp-content/themes/understrap_child/sass/_footer.scss",
+		"/G/Xampp/htdocs/wpdev/personal/mp/wp-content/themes/avameditation/header.php",
+		"/G/Xampp/htdocs/wpdev/personal/mp/wp-content/themes/avameditation/functions.php",
+		"/G/Xampp/htdocs/wpdev/personal/mp/wp-content/themes/avameditation/sass/variables-site/_typography.scss",
+		"/G/Xampp/htdocs/wpdev/personal/mp/wp-content/themes/avameditation/sass/typography/_headings.scss",
+		"/G/Xampp/htdocs/wpdev/personal/mp/wp-content/themes/avameditation/sass/elements/_elements.scss",
+		"/G/Xampp/htdocs/wpdev/personal/mp/wp-content/themes/avameditation/sass/variables-site/_colors.scss",
+		"/G/Xampp/htdocs/wpdev/personal/mp/wp-content/themes/avameditation/sass/site/primary/_header.scss",
+		"/G/Xampp/htdocs/wpdev/personal/mp/wp-content/themes/avameditation/sass/mixins/_mixins-master.scss",
+		"/G/Xampp/htdocs/wpdev/personal/mp/wp-content/themes/avameditation/sass/site/_site.scss",
+		"/G/Xampp/htdocs/wpdev/personal/mp/wp-content/themes/avameditation/sass/navigation/_menus.scss",
+		"/G/Xampp/htdocs/wpdev/clients/maltamapsociety/wp-content/themes/understrap/header.php",
+		"/G/Xampp/htdocs/wpdev/personal/mp/wp-content/themes/avameditation/sass/style.scss",
+		"/G/Xampp/htdocs/wpdev/personal/mp/wp-content/themes/avameditation/inc/bootstrap-wp-navwalker.php",
+		"/G/Xampp/htdocs/wpdev/personal/mp/wp-content/themes/avameditation/js/custom.js",
+		"/G/Xampp/htdocs/wpdev/personal/mp/wp-content/themes/avameditation/sass/modules/_accessibility.scss",
+		"/G/Xampp/htdocs/wpdev/mklinks.txt",
+		"/G/Xampp/htdocs/_assets/MDBootStrap/MDB Pro/index.html",
+		"/G/Xampp/htdocs/wpdev/personal/mp/wp-content/themes/avameditation/js/min/custom.min.js",
+		"/G/Xampp/htdocs/wpdev/clients/silviovassallo/GDPR.html",
+		"/G/Xampp/htdocs/wpdev/clients/maltamapsociety/wp-content/themes/maltamap/footer.php",
+		"/G/Xampp/htdocs/wpdev/clients/maltamapsociety/wp-content/themes/understrap_child/footer.php",
+		"/G/Xampp/htdocs/wpdev/clients/maltamapsociety/wp-content/themes/understrap_child/loop-templates/content-search.php",
+		"/G/Xampp/htdocs/wpdev/clients/maltamapsociety/wp-content/themes/understrap_child/search.php",
+		"/G/Xampp/htdocs/wpdev/clients/maltamapsociety/wp-content/themes/understrap_child/sass/_headers.scss",
+		"/G/Xampp/htdocs/wpdev/clients/maltamapsociety/wp-content/themes/understrap_child/sass/_puzzles.scss",
+		"/G/Xampp/htdocs/wpdev/clients/maltamapsociety/wp-content/themes/understrap_child/sass/_publications.scss",
+		"/G/Xampp/htdocs/wpdev/clients/maltamapsociety/wp-content/themes/understrap_child/archive.php",
+		"/G/Xampp/htdocs/wpdev/clients/maltamapsociety/wp-content/themes/understrap_child/sass/_glossary.scss",
+		"/G/Xampp/htdocs/wpdev/clients/maltamapsociety/wp-content/themes/understrap/page-templates/right-sidebarpage.php",
+		"/G/Xampp/htdocs/wpdev/clients/maltamapsociety/wp-content/themes/understrap_child/page-templates/templates-puzzles.php",
+		"/G/Xampp/htdocs/wpdev/clients/maltamapsociety/wp-content/themes/maltamap/publications.php",
+		"/G/Xampp/htdocs/wpdev/clients/maltamapsociety/wp-content/themes/understrap/page-templates/fullwidthpage.php",
+		"/G/Xampp/htdocs/wpdev/clients/maltamapsociety/wp-content/themes/maltamap/mdb_pro/scss/style.scss",
+		"/G/Xampp/htdocs/wpdev/clients/maltamapsociety/wp-content/themes/maltamap/mdb_pro/scss/_style.scss",
+		"/G/Xampp/htdocs/wpdev/clients/maltamapsociety/wp-content/themes/understrap_child/sass/_captions.scss",
+		"/G/Xampp/htdocs/wpdev/clients/maltamapsociety/wp-content/themes/understrap_child/sass/_links.scss",
+		"/G/Xampp/htdocs/wpdev/clients/maltamapsociety/wp-content/themes/understrap_child/sass/_comments.scss",
+		"/G/Xampp/htdocs/wpdev/clients/maltamapsociety/wp-content/themes/understrap_child/sass/_media.scss",
+		"/G/Xampp/htdocs/wpdev/clients/maltamapsociety/wp-content/themes/understrap_child/sass/_mixins.scss",
+		"/G/Xampp/htdocs/wpdev/clients/maltamapsociety/wp-content/themes/understrap_child/sass/_tables.scss",
+		"/G/Xampp/htdocs/wpdev/clients/maltamapsociety/_assets/sass/media/_media.scss",
+		"/G/Xampp/htdocs/wpdev/clients/maltamapsociety/wp-content/themes/understrap_child/sass/_alignments.scss",
+		"/G/Xampp/htdocs/wpdev/clients/maltamapsociety/wp-content/themes/understrap_child/sass/_elements.scss",
+		"/G/Xampp/htdocs/wpdev/clients/maltamapsociety/wp-content/themes/understrap_child/sass/_home-page.scss",
+		"/G/Xampp/htdocs/wpdev/clients/maltamapsociety/wp-content/themes/understrap_child/home.php",
+		"/G/Xampp/htdocs/wpdev/clients/maltamapsociety/wp-content/themes/understrap_child/loop-templates/content-single.php",
+		"/G/Xampp/htdocs/wpdev/clients/maltamapsociety/wp-content/themes/understrap_child/sass/_colors.scss",
+		"/G/Xampp/htdocs/wpdev/clients/maltamapsociety/wp-content/themes/understrap_child/loop-templates/content-standard.php",
+		"/G/Xampp/htdocs/wpdev/clients/maltamapsociety/wp-content/themes/understrap_child/sass/_buttons.scss",
+		"/G/Xampp/htdocs/wpdev/clients/maltamapsociety/wp-content/themes/understrap_child/sass/_typography.scss",
+		"/G/Xampp/htdocs/wpdev/clients/maltamapsociety/wp-content/themes/understrap_child/sidebar-footerfull.php",
+		"/G/Xampp/htdocs/wpdev/clients/maltamapsociety/wp-content/themes/understrap/inc/template-tags.php",
+		"/G/Xampp/htdocs/wpdev/clients/maltamapsociety/wp-content/themes/understrap_child/inc/pagination.php"
+	],
+	"find":
+	{
+		"height": 70.0
+	},
+	"find_in_files":
+	{
+		"height": 164.0,
+		"where_history":
+		[
+			"G:\\Xampp\\htdocs\\wpdev\\clients\\CCPS\\wp-content\\themes\\ccps",
+			"G:\\Xampp\\htdocs\\wpdev\\clients\\CCPS\\wp-content\\themes\\ccps\\sass",
+			"G:\\Xampp\\htdocs\\wpdev\\clients\\maltamapsociety\\wp-content\\themes\\understrap_child",
+			"G:\\Xampp\\htdocs\\wpdev\\clients\\maltamapsociety\\wp-content\\themes\\understrap_child\\sass",
+			"G:\\Xampp\\htdocs\\wpdev\\clients\\maltamapsociety\\wp-content\\themes\\understrap",
+			"G:\\Xampp\\htdocs\\wpdev\\personal\\mp\\wp-content\\themes\\avameditation\\sass",
+			"G:\\Xampp\\htdocs\\wpdev\\clients\\maltamapsociety\\wp-content\\themes\\understrap_child\\sass",
+			"G:\\Xampp\\htdocs\\wpdev\\clients\\maltamapsociety\\wp-content\\themes\\maltamap",
+			"G:\\Xampp\\htdocs\\wpdev\\clients\\maltamapsociety\\_assets\\sass",
+			"G:\\Xampp\\htdocs\\wpdev\\clients\\maltamapsociety\\wp-content\\themes\\maltamap",
+			"G:\\Xampp\\htdocs\\wpdev\\clients\\maltamapsociety\\wp-content\\themes\\understrap\\inc",
+			"G:\\Xampp\\htdocs\\wpdev\\clients\\maltamapsociety\\wp-content\\themes\\understrap",
+			"G:\\Xampp\\htdocs\\wpdev\\clients\\maltamapsociety\\wp-content\\themes\\maltamap\\mdb_pro\\scss\\sass",
+			"G:\\Xampp\\htdocs\\wpdev\\clients\\maltamapsociety\\wp-content\\themes\\maltamap",
+			"G:\\Xampp\\htdocs\\wpdev\\clients\\maltamapsociety\\wp-content\\themes\\understrap_child\\sass",
+			"G:\\Xampp\\htdocs\\wpdev\\clients\\maltamapsociety\\_assets\\sass",
+			"G:\\Xampp\\htdocs\\wpdev\\clients\\maltamapsociety\\wp-content\\themes\\understrap\\sass",
+			"G:\\Xampp\\htdocs\\wpdev\\clients\\maltamapsociety\\_assets\\sass",
+			"G:\\Xampp\\htdocs\\wpdev\\clients\\maltamapsociety\\wp-content\\themes\\understrap\\mdb_pro",
+			"G:\\Xampp\\htdocs\\wpdev\\clients\\maltamapsociety\\wp-content\\themes\\understrap\\sass",
+			"G:\\Xampp\\htdocs\\wpdev\\clients\\maltamapsociety\\wp-content\\themes\\maltamap",
+			"G:\\Xampp\\htdocs\\wpdev\\clients\\maltamapsociety\\wp-content\\themes\\understrap\\mdb_pro",
+			"G:\\Xampp\\htdocs\\wpdev\\clients\\maltamapsociety\\wp-content\\themes\\understrap",
+			"G:\\Xampp\\htdocs\\wpdev\\clients\\maltamapsociety\\wp-content\\themes\\maltamap",
+			"G:\\Xampp\\htdocs\\wpdev\\clients\\maltamapsociety\\wp-content\\themes\\understrap",
+			"G:\\Xampp\\htdocs\\wpdev\\clients\\maltamapsociety\\_assets\\sass",
+			"G:\\Xampp\\htdocs\\wpdev\\clients\\maltamapsociety\\wp-content\\themes\\maltamap",
+			"G:\\Xampp\\htdocs\\wpdev\\clients\\maltamapsociety\\_assets\\sass",
+			"G:\\Xampp\\htdocs\\wpdev\\clients\\maltamapsociety\\wp-content\\themes\\maltamap",
+			"G:\\Xampp\\htdocs\\wpdev\\personal\\avalon\\wp-content\\themes\\avalon",
+			"G:\\Xampp\\htdocs\\wpdev\\personal\\avalon\\",
+			"G:\\Xampp\\htdocs\\wpdev\\clients\\19rooms\\wp-content\\themes\\boutiquehotel",
+			"G:\\Xampp\\htdocs\\wpdev\\clients\\gendel\\wp-content\\themes\\gendel",
+			"G:\\Xampp\\htdocs\\wpdev\\clients\\maltamapsociety\\wp-content\\themes\\maltamap\\sass",
+			"G:\\Xampp\\htdocs\\wpdev\\clients\\maltamapsociety\\wp-content\\themes\\maltamap\\",
+			"G:\\Xampp\\htdocs\\wpdev\\clients\\maltamapsociety\\wp-content\\themes\\maltamap\\sass",
+			"G:\\Xampp\\htdocs\\wpdev\\personal\\avalon\\vendor",
+			"G:\\Xampp\\htdocs\\wpdev\\clients\\19rooms",
+			"G:\\Xampp\\htdocs\\wpdev\\personal\\metest\\wp-content\\themes\\storefront"
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"hen",
+			"nav-links",
+			"{\n",
+			";\n",
+			"layout",
+			"loaded",
+			"talentscout",
+			"primary",
+			"ava-sm",
+			"ava-small",
+			"puzzleJSON",
+			"font-weight-bold",
+			"\\n\\n",
+			"min",
+			"theme.m",
+			"theme-m",
+			"theme",
+			"test",
+			"avata",
+			"testimonial",
+			"theme",
+			"tags",
+			"dyk",
+			"fixed-sear",
+			"input",
+			"ul",
+			"navwalker",
+			"screen-rea",
+			"screen",
+			"maltamap",
+			"<p>[a-z]+\\) ",
+			"Twenty13 Productions Ltd",
+			"<em>Twenty13 Productions Ltd</em>",
+			"Twenty13",
+			" <p",
+			"</h4>",
+			"<h4>",
+			"  ",
+			" ",
+			"\\(",
+			"(",
+			"\\(",
+			"(",
+			"Montreal Co Ltd",
+			"the Montreal",
+			"http",
+			"  ",
+			" ",
+			"Montreal Co Ltd",
+			" ",
+			"    ",
+			"  ",
+			"carousel",
+			"dyk",
+			"gameo",
+			"gamo",
+			"gam",
+			"collage",
+			"ifra",
+			"iframe",
+			"numbered-pag",
+			"template-tags",
+			"malt",
+			"posted_on",
+			"calc",
+			"es_",
+			"carou",
+			"fron",
+			"ava-y",
+			"them",
+			"under",
+			"/image",
+			"theme",
+			"testimonial-ca",
+			"close",
+			"sub",
+			".card",
+			"sear",
+			"sea",
+			"imageArr",
+			"alignleft",
+			"figure",
+			"preloader",
+			"#preloader",
+			"preloader",
+			"transparent",
+			"car",
+			"select {",
+			"badge",
+			"add_image",
+			".blog",
+			"numbered-pag",
+			"ava",
+			"../images",
+			"posted_on",
+			"ps",
+			"latest",
+			"skip",
+			"puzz",
+			"puzzle",
+			"side",
+			"<div id=\"primary\" class=\"content-area",
+			"card",
+			"pagin",
+			"upd",
+			"ea",
+			"data",
+			"white-l",
+			"dykpopup",
+			"data",
+			"}\";\n",
+			"wow",
+			"carouse",
+			"custom_logo",
+			"logo",
+			"fixed-sn",
+			"type=\"search",
+			"0f0",
+			"avalon-skin.accent",
+			"avalon-skin .accent",
+			"avalon-skin.accent",
+			"accent",
+			"avalon-skin .bt",
+			"avalon-skin",
+			"btn-pr",
+			"logo-sn",
+			"reboot",
+			"z-depth-2"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": true,
+		"replace_history":
+		[
+			"isLoaded",
+			"ccps",
+			"\\n",
+			"avameditation",
+			"<p>",
+			"<em>Twenty13 Productions Ltd</em>",
+			"Twenty13 Productions Ltd",
+			"<p",
+			"</p>",
+			" <p>",
+			" ",
+			"",
+			"\\n(",
+			"/n(",
+			"\\n(",
+			"<em>Montreal Co Ltd</em>",
+			"Montreal",
+			" ",
+			"",
+			"<em>Montreal Co Ltd</em>",
+			"",
+			" ",
+			"imageMedium",
+			"images",
+			",\\n",
+			"main-navigation",
+			"991",
+			"\\n}",
+			"Avalon Studios",
+			"Silvio Vassallo Manufacturing Jewellers",
+			"<em>Silvio Vassallo Manufacturing Jewellers</em>",
+			"Silvio",
+			"animus",
+			"committees_flx",
+			"",
+			" ",
+			": ",
+			"</h5>",
+			"<h5>",
+			"</h5>",
+			"<h3>",
+			"Trabuxu Boutique Living Ltd",
+			" ",
+			"$index",
+			" ",
+			"colHeader",
+			"colHeaders",
+			"pl-no-text",
+			"$lightblue",
+			"pl",
+			"PriceListCtrl",
+			"tableRow"
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"sheets":
+			[
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 32.0
+	},
+	"input":
+	{
+		"height": 73.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"pinned_build_system": "",
+	"project": "ccps-project.sublime-project",
+	"replace":
+	{
+		"height": 114.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": true,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 292.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}

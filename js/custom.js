@@ -1,11 +1,5 @@
 //@prepros-append ajaxcalls.js
 
-/*
-prepros-append ../MDB-Pro/js/popper.min.js
-prepros-append ../MDB-Pro/js/bootstrap.js
-prepros-append ../MDB-Pro/js/mdb.js
-*/
-
 $( () => {
 	$( window ).on( 'load', onLoad );
 	$( window ).on( 'resize', onResize );
@@ -21,6 +15,9 @@ function onLoad() {
 	});
 	// Instantiante Carousel
 	$( 'select' ).material_select();
+
+	$( '.preload-wrapper' ).fadeOut();
+	$( '#page' ).hide().fadeIn( 1000 );
 }
 
 function onResize() {

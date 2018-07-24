@@ -53,13 +53,31 @@
 }
 
 .social-menu-container {
+	@include bp( 1, 767 ) {
+		//display: none;
+	}
 	ul {
 		margin: 0;
 		li.menu-item {
 			a {
 				i._mi {
-					@include font-size( 2 );
-					margin-right: 5px;
+					@include bp( 1 ) {
+						@include font-size( 1.5 );
+						margin-right: 5px;
+					}
+					@include bp( 768 ) {
+						@include font-size( 2 );
+					}
+				}
+			}
+		}
+		li.tel-text {
+			a {
+				@include bp( 1 ) {
+					@include font-size( .8 );
+				}
+				@include bp( 768 ) {
+					@include font-size( 1 );
 				}
 			}
 		}

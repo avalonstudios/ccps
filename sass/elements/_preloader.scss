@@ -1,0 +1,199 @@
+//variables
+$spinner-dimensions: 50px; //width and height of spinner block 
+$spinner-1-bg: $green4; //spinner-1 background-color
+
+//position absolute mixin
+@mixin position-absolute ( $top: null, $right: null, $bottom: null, $left: null ) {
+	position: absolute;
+	top: $top;
+	right: $right;
+	bottom: $bottom;
+	left: $left;
+	z-index: 999999;
+}
+/* YOU NEED THESE STYLES */
+
+.preload-wrapper {
+	@include position-absolute( 0, 0, 0, 0 );
+	background: white;
+	//display: none;
+}
+
+/* spinner style */
+.spinner-eff {
+
+	@include position-absolute( 50%, 50%, 50%, 50% );
+	width: $spinner-dimensions;
+	height: $spinner-dimensions;
+	
+	&:before,
+	&:after {
+		content: "";
+		display: block;
+	}
+
+	$top: -30px;
+
+	&:befor {
+		content: '';
+		@include ccpsLogo();
+		$height: 18.5px;
+		@include logoSizes( $height );
+		display: inline-block;
+		position: absolute;
+		top: $top;
+		left: 0px;
+	}
+	&:after {
+		content: 'loading...';
+		font-family: $sans;
+		@include font-size( 1 );
+		line-height: 1;
+		color: $green1;
+		display: inline-block;
+		position: absolute;
+		top: $top;
+		left: 0;
+		//width: 151px;
+	}
+	
+	.spinner-bar {
+		
+		&:before,
+		&:after {
+			content: "";
+			display: block;
+		}
+	}
+}
+
+/* spinner-1 styles */
+.spinner-eff.spinner-eff-1 {
+	
+	@keyframes rotation-top {
+		0% {
+			transform: rotate(0deg);
+			opacity: 0.5;
+		}
+		
+		20% {
+			transform: rotate(360deg);
+			opacity: 1;
+		}
+		
+		80% {
+			transform: rotate(360deg);
+			opacity: 1;
+		}
+		
+		100% {
+			transform: rotate(360deg);
+			opacity: 0.5;
+		}
+	}
+	
+	@keyframes rotation-right {
+		0% {
+			transform: rotate(0deg);
+			opacity: 0.5;
+		}
+		
+		20% {
+			transform: rotate(0deg);
+			opacity: 0.5;
+		}
+		
+		40% {
+			transform: rotate(360deg);
+			opacity: 1;
+		}
+		
+		80% {
+			transform: rotate(360deg);
+			opacity: 1;
+		}
+		
+		100% {
+			transform: rotate(360deg);
+			opacity: 0.5;
+		}
+	}
+	
+	@keyframes rotation-bottom {
+		0% {
+			transform: rotate(0deg);
+			opacity: 0.5;
+		}
+		
+		40% {
+			transform: rotate(0deg);
+			opacity: 0.5;
+		}
+		
+		60% {
+			transform: rotate(360deg);
+			opacity: 1;
+		}
+		
+		80% {
+			transform: rotate(360deg);
+			opacity: 1;
+		}
+		
+		100% {
+			transform: rotate(360deg);
+			opacity: 0.5;
+		}
+	}
+	
+	@keyframes rotation-left {
+		0% {
+			transform: rotate(0deg);
+			opacity: 0.5;
+		}
+		
+		60% {
+			transform: rotate(0deg);
+			opacity: 0.5;
+		}
+		
+		80% {
+			transform: rotate(360deg);
+			opacity: 1;
+		}
+		
+		100% {
+			transform: rotate(360deg);
+			opacity: 0.5;
+		}
+	}
+	
+	.bar {
+		width: 0;
+		height: 0;
+		border:  $spinner-dimensions/2 solid transparent;
+		@include position-absolute($top: 0, $left: 0);
+		transform: rotate(0deg);
+		opacity: 0.5;
+		
+		&-top {
+			border-top: $spinner-dimensions/2 solid $spinner-1-bg;
+			animation: rotation-top 3.6s linear 0s infinite;
+		}
+		
+		&-right {
+			border-right: $spinner-dimensions/2 solid $spinner-1-bg; 
+			animation: rotation-right 3.6s linear 0s infinite;
+		}
+		
+		&-bottom {
+			border-bottom: $spinner-dimensions/2 solid $spinner-1-bg; 
+			animation: rotation-bottom 3.6s linear 0s infinite;
+		}
+		
+		&-left {
+			border-left: $spinner-dimensions/2 solid $spinner-1-bg; 
+			animation: rotation-left 3.6s linear 0s infinite;
+		}
+	}
+}

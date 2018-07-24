@@ -21,12 +21,20 @@
 </head>
 
 <body <?php body_class(); ?>>
+<div class="preload-wrapper">
+	<div class="spinner-eff spinner-eff-1">
+		<div class="bar bar-top"></div>
+		<div class="bar bar-right"></div>
+		<div class="bar bar-bottom"></div>
+		<div class="bar bar-left"></div>
+	</div>
+</div>
 <div id="page" class="site">
 	<a class="skip-link screen-reader-text" href="#content"><?php esc_html_e( 'Skip to content', 'ccps' ); ?></a>
 
 	<header id="masthead" class="site-header">
 		<nav class="navbar fixed-top navbar-expand-xl navbar-light scrolling-navbar justify-content-between">
-			<div class="container">
+			<div class="container-fluid">
 				<div class="navbar-brand">
 					<?php
 					the_custom_logo();
